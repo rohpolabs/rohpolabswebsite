@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - RohpoLabs</title>
+    <meta name="description" content="RohpoLabs comprehensive privacy policy. Learn how we collect, use, and protect your data across all our mobile applications.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Embedded CSS for immediate styling -->
+    <style>
+        /* RohpoLabs Creative Colorful CSS Framework */
+
+        /* CSS Variables for Creative Color Palette */
+        :root {
+          /* Primary Colors - Creative & Colorful */
+          --primary-purple: #8B5CF6;
+          --primary-purple-light: #A78BFA;
+          --primary-purple-dark: #7C3AED;
+
+          /* Secondary Colors */
+          --secondary-blue: #3B82F6;
+          --secondary-blue-light: #60A5FA;
+          --secondary-blue-dark: #2563EB;
+
+          /* Accent Colors */
+          --accent-coral: #F43F5E;
+          --accent-coral-light: #FB7185;
+          --accent-coral-dark: #E11D48;
+
+          --highlight-lime: #84CC16;
+          --highlight-lime-light: #A3E635;
+          --highlight-lime-dark: #65A30D;
+
+          /* Neutral Colors */
+          --neutral-50: #FAFAFA;
+          --neutral-100: #F5F5F5;
+          --neutral-200: #E5E5E5;
+          --neutral-300: #D4D4D4;
+          --neutral-400: #A3A3A3;
+          --neutral-500: #737373;
+          --neutral-600: #525252;
+          --neutral-700: #404040;
+          --neutral-800: #262626;
+          --neutral-900: #171717;
+
+          /* Typography */
+          --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          --font-weight-light: 300;
+          --font-weight-normal: 400;
+          --font-weight-medium: 500;
+          --font-weight-semibold: 600;
+          --font-weight-bold: 700;
+
+          /* Spacing */
+          --space-xs: 0.25rem;
+          --space-sm: 0.5rem;
+          --space-md: 1rem;
+          --space-lg: 1.5rem;
+          --space-xl: 2rem;
+          --space-2xl: 3rem;
+          --space-3xl: 4rem;
+
+          /* Border Radius */
+          --radius-sm: 0.25rem;
+          --radius-md: 0.5rem;
+          --radius-lg: 0.75rem;
+          --radius-xl: 1rem;
+          --radius-2xl: 1.5rem;
+          --radius-full: 9999px;
+
+          /* Shadows */
+          --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+          --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+          --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+          --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          --shadow-colorful: 0 10px 15px -3px rgba(139, 92, 246, 0.2), 0 4px 6px -2px rgba(59, 130, 246, 0.1);
+
+          /* Transitions */
+          --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+          --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+          --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Base Styles */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        html {
+          scroll-behavior: smooth;
+        }
+
+        body {
+          font-family: var(--font-primary);
+          font-weight: var(--font-weight-normal);
+          line-height: 1.6;
+          color: var(--neutral-800);
+          background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+          min-height: 100vh;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+          font-weight: var(--font-weight-bold);
+          line-height: 1.2;
+          margin-bottom: var(--space-md);
+        }
+
+        h1 {
+          font-size: clamp(2rem, 5vw, 3rem);
+          background: linear-gradient(135deg, var(--primary-purple), var(--secondary-blue));
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-shadow: 0 2px 10px rgba(139, 92, 246, 0.1);
+        }
+
+        h2 {
+          font-size: clamp(1.8rem, 4vw, 2.5rem);
+          color: var(--neutral-900);
+        }
+
+        h3 {
+          font-size: clamp(1.4rem, 3vw, 1.8rem);
+          color: var(--neutral-800);
+        }
+
+        h4 {
+          font-size: clamp(1.2rem, 3vw, 1.4rem);
+          color: var(--neutral-700);
+        }
+
+        p {
+          margin-bottom: var(--space-md);
+          color: var(--neutral-600);
+        }
+
+        a {
+          color: var(--primary-purple);
+          text-decoration: none;
+          transition: color var(--transition-fast);
+        }
+
+        a:hover {
+          color: var(--primary-purple-dark);
+        }
+
+        /* Creative Buttons */
+        .btn {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: var(--space-md) var(--space-xl);
+          border-radius: var(--radius-xl);
+          font-weight: var(--font-weight-medium);
+          font-size: 1rem;
+          text-decoration: none;
+          transition: all var(--transition-normal);
+          cursor: pointer;
+          border: none;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .btn::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -100%;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+          transition: left var(--transition-slow);
+        }
+
+        .btn:hover::before {
+          left: 100%;
+        }
+
+        .btn-primary {
+          background: linear-gradient(135deg, var(--primary-purple), var(--primary-purple-light));
+          color: white;
+          box-shadow: var(--shadow-colorful);
+        }
+
+        .btn-primary:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 15px 20px -5px rgba(139, 92, 246, 0.3);
+        }
+
+        .btn-secondary {
+          background: linear-gradient(135deg, var(--secondary-blue), var(--secondary-blue-light));
+          color: white;
+          box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.2);
+        }
+
+        .btn-highlight {
+          background: linear-gradient(135deg, var(--highlight-lime), var(--highlight-lime-light));
+          color: white;
+          box-shadow: 0 10px 15px -3px rgba(132, 204, 22, 0.2);
+        }
+
+        /* Layout Components */
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 var(--space-md);
+        }
+
+        /* Navigation Header */
+        .header {
+          background: rgba(255, 255, 255, 0.95);
+          backdrop-filter: blur(10px);
+          border-bottom: 1px solid var(--neutral-200);
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 1000;
+          padding: var(--space-md) 0;
+        }
+
+        .nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .logo {
+          font-size: 1.5rem;
+          font-weight: var(--font-weight-bold);
+          background: linear-gradient(135deg, var(--primary-purple), var(--secondary-blue));
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: flex;
+          align-items: center;
+        }
+
+        .nav-links {
+          display: flex;
+          gap: var(--space-xl);
+          list-style: none;
+        }
+
+        .nav-link {
+          color: var(--neutral-600);
+          font-weight: var(--font-weight-medium);
+          transition: color var(--transition-fast);
+          position: relative;
+        }
+
+        .nav-link:hover {
+          color: var(--primary-purple);
+        }
+
+        .nav-link::after {
+          content: '';
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          width: 0;
+          height: 2px;
+          background: linear-gradient(90deg, var(--primary-purple), var(--secondary-blue));
+          transition: width var(--transition-normal);
+        }
+
+        .nav-link:hover::after {
+          width: 100%;
+        }
+
+        /* Creative Cards */
+        .card {
+          background: white;
+          border-radius: var(--radius-2xl);
+          padding: var(--space-xl);
+          box-shadow: var(--shadow-lg);
+          transition: all var(--transition-normal);
+          position: relative;
+          overflow: hidden;
+        }
+
+        .card::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 4px;
+          background: linear-gradient(90deg, var(--primary-purple), var(--secondary-blue), var(--accent-coral), var(--highlight-lime));
+          animation: gradient-shift 3s ease-in-out infinite;
+        }
+
+        @keyframes gradient-shift {
+          0%, 100% { transform: translateX(0); }
+          50% { transform: translateX(10px); }
+        }
+
+        .card:hover {
+          transform: translateY(-5px);
+          box-shadow: var(--shadow-xl);
+        }
+
+        /* Main Content */
+        main {
+          padding: calc(100px + var(--space-3xl)) 0 var(--space-3xl);
+        }
+
+        /* Sections */
+        .section {
+          padding: var(--space-3xl) 0;
+        }
+
+        .section-title {
+          text-align: center;
+          margin-bottom: var(--space-3xl);
+        }
+
+        /* Footer */
+        .footer {
+          background: var(--neutral-900);
+          color: white;
+          padding: var(--space-3xl) 0 var(--space-xl);
+          text-align: center;
+        }
+
+        .footer-content {
+          margin-bottom: var(--space-xl);
+        }
+
+        .footer-links {
+          display: flex;
+          justify-content: center;
+          gap: var(--space-xl);
+          margin-bottom: var(--space-lg);
+          flex-wrap: wrap;
+        }
+
+        .footer-link {
+          color: var(--neutral-400);
+          transition: color var(--transition-fast);
+          text-decoration: none;
+        }
+
+        .footer-link:hover {
+          color: var(--primary-purple-light);
+        }
+
+        /* Utility Classes */
+        .text-center { text-align: center; }
+        .text-left { text-align: left; }
+        .text-right { text-align: right; }
+
+        .mb-sm { margin-bottom: var(--space-sm); }
+        .mb-md { margin-bottom: var(--space-md); }
+        .mb-lg { margin-bottom: var(--space-lg); }
+        .mb-xl { margin-bottom: var(--space-xl); }
+        .mb-2xl { margin-bottom: var(--space-2xl); }
+        .mb-3xl { margin-bottom: var(--space-3xl); }
+
+        .mt-sm { margin-top: var(--space-sm); }
+        .mt-md { margin-top: var(--space-md); }
+        .mt-lg { margin-top: var(--space-lg); }
+        .mt-xl { margin-top: var(--space-xl); }
+        .mt-2xl { margin-top: var(--space-2xl); }
+
+        /* Lists */
+        ul {
+          list-style: none;
+          padding: 0;
+        }
+
+        ul li {
+          margin-bottom: var(--space-sm);
+          padding-left: var(--space-lg);
+          position: relative;
+        }
+
+        ul li::before {
+          content: '✓';
+          position: absolute;
+          left: 0;
+          color: var(--primary-purple);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          .nav-links {
+            display: none;
+          }
+
+          .footer-links {
+            flex-direction: column;
+            gap: var(--space-md);
+          }
+
+          .container {
+            padding: 0 var(--space-sm);
+          }
+
+          .card {
+            padding: var(--space-lg);
+          }
+
+          main {
+            padding: calc(80px + var(--space-2xl)) 0 var(--space-2xl);
+          }
+
+          .section {
+            padding: var(--space-2xl) 0;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .container {
+            padding: 0 var(--space-sm);
+          }
+
+          .card {
+            padding: var(--space-md);
+          }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="container nav">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px; vertical-align: middle;">
+                    <circle cx="20" cy="20" r="18" fill="url(#gradient1)"/>
+                    <path d="M15 20L18 23L25 16" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <defs>
+                        <linearGradient id="gradient1" x1="2" y1="2" x2="38" y2="38">
+                            <stop stop-color="#8B5CF6"/>
+                            <stop offset="1" stop-color="#3B82F6"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                RohpoLabs
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index-styled.html" class="nav-link">Home</a></li>
+                <li><a href="../about.html" class="nav-link">About</a></li>
+                <li><a href="../apps/index.html" class="nav-link">Apps</a></li>
+                <li><a href="../index-styled.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+
+                <!-- Header -->
+                <div style="text-align: center; margin-bottom: var(--space-3xl);">
+                    <h1>Privacy Policy</h1>
+                    <p style="font-size: 1.2rem; color: var(--neutral-600); max-width: 700px; margin: 0 auto;">
+                        Last updated: December 2024 | Effective Date: December 1, 2024
+                    </p>
+                    <div style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1)); padding: var(--space-xl); border-radius: var(--radius-xl); margin-top: var(--space-xl); border-left: 4px solid var(--primary-purple);">
+                        <p style="color: var(--neutral-700); font-size: 1.1rem; margin: 0; text-align: left;">
+                            <strong>🛡️ Your Privacy Matters</strong><br>
+                            At RohpoLabs, we believe privacy is a fundamental right. This policy outlines how we handle your data across all our applications with complete transparency and respect for your privacy.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Table of Contents -->
+                <div class="card mb-3xl">
+                    <h2 style="color: var(--secondary-blue); margin-bottom: var(--space-lg);">📋 Table of Contents</h2>
+                    <ul>
+                        <li><a href="#information-we-collect" style="color: var(--primary-purple);">🔍 Information We Collect</a></li>
+                        <li><a href="#how-we-use-information" style="color: var(--primary-purple);">🎯 How We Use Your Information</a></li>
+                        <li><a href="#data-sharing" style="color: var(--primary-purple);">🤝 Data Sharing and Third Parties</a></li>
+                        <li><a href="#data-security" style="color: var(--primary-purple);">🔒 Data Security</a></li>
+                        <li><a href="#data-retention" style="color: var(--primary-purple);">⏰️ Data Retention</a></li>
+                        <li><a href="#your-rights" style="color: var(--primary-purple);">👤 Your Privacy Rights</a></li>
+                        <li><a href="#contact-information" style="color: var(--primary-purple);">📧 Contact Information</a></li>
+                    </ul>
+                </div>
+
+                <!-- Information We Collect -->
+                <section id="information-we-collect" class="card mb-3xl">
+                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">🔍 Information We Collect</h2>
+
+                    <h3 style="color: var(--secondary-blue); margin-bottom: var(--space-md); margin-top: var(--space-xl);">Information You Provide</h3>
+                    <ul style="color: var(--neutral-600); line-height: 1.8;">
+                        <li><strong>Account Information:</strong> Email address, username (when you create an account)</li>
+                        <li><strong>App Content:</strong> Tasks, notes, settings, and other data you create within our apps</li>
+                        <li><strong>Communications:</strong> Messages you send to us for support or feedback</li>
+                        <li><strong>Optional Information:</strong> Profile picture, personal preferences, or any additional information you choose to provide</li>
+                    </ul>
+
+                    <h3 style="color: var(--secondary-blue); margin-bottom: var(--space-md); margin-top: var(--space-xl);">Automatically Collected Information</h3>
+                    <ul style="color: var(--neutral-600); line-height: 1.8;">
+                        <li><strong>Device Information:</strong> Device model, operating system version, device identifiers</li>
+                        <li><strong>Usage Data:</strong> How you interact with our apps, features used, session duration</li>
+                        <li><strong>Performance Data:</strong> App crashes, response times, technical diagnostics</li>
+                        <li><strong>Storage Data:</strong> Local app settings, preferences, cached data (stored locally on your device)</li>
+                    </ul>
+
+                    <div style="background: linear-gradient(135deg, rgba(132, 204, 22, 0.1), rgba(139, 92, 246, 0.1)); padding: var(--space-md); border-radius: var(--radius-lg); margin-top: var(--space-lg); border-left: 4px solid var(--highlight-lime);">
+                        <p style="color: var(--neutral-700); margin: 0;">
+                            <strong>📱 Offline-First Approach:</strong> Most of our apps are designed to work offline and store your data locally on your device. We only collect or transmit data when necessary for core functionality.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- How We Use Information -->
+                <section id="how-we-use-information" class="card mb-3xl">
+                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">🎯 How We Use Your Information</h2>
+
+                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
+                        We use your information only for legitimate purposes that are clearly explained and necessary for providing our services:
+                    </p>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg); margin-bottom: var(--space-lg);">
+                        <div style="background: rgba(139, 92, 246, 0.05); padding: var(--space-lg); border-radius: var(--radius-lg); border-left: 4px solid var(--primary-purple);">
+                            <h4 style="color: var(--primary-purple); margin-bottom: var(--space-sm);">🔧 Service Provision</h4>
+                            <p style="color: var(--neutral-600); font-size: 0.9rem; margin: 0;">
+                                ✓ Provide core app functionality<br>
+                                ✓ Sync data across your devices<br>
+                                ✓ Personalize user experience<br>
+                                ✓ Save your preferences and settings
+                            </p>
+                        </div>
+
+                        <div style="background: rgba(244, 63, 94, 0.05); padding: var(--space-lg); border-radius: var(--radius-lg); border-left: 4px solid var(--accent-coral);">
+                            <h4 style="color: var(--accent-coral); margin-bottom: var(--space-sm);">🛡️ Security & Support</h4>
+                            <p style="color: var(--neutral-600); font-size: 0.9rem; margin: 0;">
+                                ✓ Prevent fraud and abuse<br>
+                                ✓ Provide customer support<br>
+                                ✓ Maintain app security<br>
+                                ✓ Resolve technical issues
+                            </p>
+                        </div>
+
+                        <div style="background: rgba(59, 130, 246, 0.05); padding: var(--space-lg); border-radius: var(--radius-lg); border-left: 4px solid var(--secondary-blue);">
+                            <h4 style="color: var(--secondary-blue); margin-bottom: var(--space-sm);">📈 Improvement</h4>
+                            <p style="color: var(--neutral-600); font-size: 0.9rem; margin: 0;">
+                                ✓ Improve app performance<br>
+                                ✓ Develop new features<br>
+                                ✓ Fix bugs and issues<br>
+                                ✓ Optimize user experience
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact Information -->
+                <section id="contact-information" class="card mb-3xl">
+                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">📧 Contact Information</h2>
+
+                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
+                        If you have any questions, concerns, or requests regarding this privacy policy or our data practices, please contact us:
+                    </p>
+
+                    <div style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1)); padding: var(--space-xl); border-radius: var(--radius-xl); margin-top: var(--space-lg); text-align: center;">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-lg); text-align: left;">
+                            <div>
+                                <h4 style="color: var(--secondary-blue); margin-bottom: var(--space-sm);">📧 Privacy Questions</h4>
+                                <p style="color: var(--neutral-700); margin: 0;">
+                                    <strong>Email:</strong> <a href="mailto:privacy@rohpolabs.com" style="color: var(--primary-purple);">privacy@rohpolabs.com</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h4 style="color: var(--primary-purple); margin-bottom: var(--space-sm);">🏢 Company</h4>
+                                <p style="color: var(--neutral-700); margin: 0;">
+                                    <strong>Name:</strong> RohpoLabs
+                                </p>
+                            </div>
+                            <div>
+                                <h4 style="color: var(--accent-coral); margin-bottom: var(--space-sm);">⏱️ Response Time</h4>
+                                <p style="color: var(--neutral-700); margin: 0;">
+                                    We typically respond within 3-5 business days
+                                </p>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: var(--space-xl); text-align: center;">
+                            <p style="color: var(--neutral-700); font-style: italic; margin: 0;">
+                                We are committed to addressing your privacy concerns promptly and transparently.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: var(--space-xl);">
+                        <a href="../index-styled.html" class="btn btn-primary">← Back to Home</a>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                    <h3 style="margin-bottom: var(--space-md); color: white;">RohpoLabs</h3>
+                    <p style="color: var(--neutral-400); margin-bottom: var(--space-xl);">
+                        Your privacy is our priority. We're committed to protecting your data across all our mobile applications.
+                    </p>
+                    <div class="footer-links">
+                        <a href="../index-styled.html" class="footer-link">Home</a>
+                        <a href="../about.html" class="footer-link">About</a>
+                        <a href="../apps/index.html" class="footer-link">Apps</a>
+                        <a href="privacy-policy-styled.html" class="footer-link">Privacy Policy</a>
+                        <a href="terms-of-service-styled.html" class="footer-link">Terms of Service</a>
+                    </div>
+                    <div style="margin-top: var(--space-lg);">
+                        <p style="color: var(--neutral-500); font-size: 0.875rem;">
+                            © 2024 RohpoLabs. All rights reserved. Made with ❤️ and respect for your privacy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

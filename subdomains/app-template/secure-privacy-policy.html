@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - [APP_NAME] - RohpoLabs</title>
+    <meta name="description" content="Privacy policy for [APP_NAME] mobile application by RohpoLabs.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <style>
+        .external-content {
+            background: var(--neutral-50);
+            padding: var(--space-xl);
+            border-radius: var(--radius-lg);
+            margin: var(--space-xl) 0;
+            border-left: 4px solid var(--highlight-lime);
+        }
+        .app-header {
+            text-align: center;
+            margin-bottom: var(--space-2xl);
+            padding: var(--space-xl);
+            background: linear-gradient(135deg, var(--primary-purple), var(--secondary-blue));
+            border-radius: var(--radius-2xl);
+            color: white;
+        }
+        .content-display {
+            background: white;
+            padding: var(--space-2xl);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            margin-top: var(--space-lg);
+            line-height: 1.8;
+        }
+        .dynamic-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .last-updated {
+            text-align: center;
+            color: var(--neutral-500);
+            font-size: 0.875rem;
+            margin-top: var(--space-xl);
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="container nav">
+            <div class="logo">
+                <a href="../../index.html" class="logo-link">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px; vertical-align: middle;">
+                        <circle cx="20" cy="20" r="18" fill="url(#gradient1)"/>
+                        <path d="M15 20L18 23L25 16" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                            <linearGradient id="gradient1" x1="2" y1="2" x2="38" y2="38">
+                                <stop stop-color="#8B5CF6"/>
+                                <stop offset="1" stop-color="#3B82F6"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    RohpoLabs
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../../index.html" class="nav-link">Home</a></li>
+                <li><a href="../../about.html" class="nav-link">About</a></li>
+                <li><a href="../../apps/index.html" class="nav-link">Apps</a></li>
+                <li><a href="privacy-policy.html" class="nav-link">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div class="dynamic-content">
+                <!-- App Header -->
+                <div class="app-header">
+                    <h1>Privacy Policy - [APP_NAME]</h1>
+                    <div style="width: 80px; height: 80px; background: white; border-radius: var(--radius-xl); margin-bottom: var(--space-md); display: inline-flex; align-items: center; justify-content: center; box-shadow: var(--shadow-md);">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" y="3" width="18" height="18" rx="2" stroke="url(#appGradient)" stroke-width="3" fill="none"/>
+                            <path d="M9 11L12 14L22 4" stroke="url(#appGradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="appGradient" x1="3" y1="3" x2="21" y2="21">
+                                    <stop stop-color="#8B5CF6"/>
+                                    <stop offset="1" stop-color="#F43F5E"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <p style="font-size: 1.2rem; margin: 0;">[APP_CATEGORY]</p>
+                    <p style="color: rgba(255,255,255,0.9); margin: 0;">[APP_DESCRIPTION]</p>
+                </div>
+
+                <!-- External Content Display -->
+                <div class="external-content">
+                    <div class="dynamic-content">
+                        <h2 style="color: var(--secondary-blue);">Privacy Policy</h2>
+                        <div id="privacyContentDisplay" class="content-display">
+                            <!-- Privacy content will be loaded here -->
+                            Loading privacy policy content...
+                        </div>
+                        <div class="last-updated">
+                            <p>Last updated: December 2024</p>
+                            <p>This privacy policy is maintained securely by RohpoLabs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                    <h3 style="margin-bottom: var(--space-md); color: white;">RohpoLabs</h3>
+                    <p style="color: var(--neutral-400); margin-bottom: var(--space-xl);">
+                        Secure privacy policies for your trusted mobile applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load content from external file -->
+    <script>
+        // Load privacy content from external file
+        fetch('privacy-content.txt')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Could not load privacy content');
+                }
+                return response.text();
+            })
+            .then(content => {
+                // Display content
+                const displayElement = document.getElementById('privacyContentDisplay');
+                if (displayElement) {
+                    displayElement.innerHTML = content;
+                }
+            })
+            .catch(error => {
+                console.error('Error loading privacy content:', error);
+                // Fallback to default content
+                const displayElement = document.getElementById('privacyContentDisplay');
+                if (displayElement) {
+                    displayElement.innerHTML = `
+                        <h3>Privacy Policy</h3>
+                        <p>This privacy policy outlines how [APP_NAME] handles your data with complete transparency and respect for your privacy.</p>
+                        <p><strong>Data Collection:</strong> We collect only information necessary for app functionality.</p>
+                        <p><strong>Data Usage:</strong> Your data is used to provide and improve our services.</p>
+                        <p><strong>Data Security:</strong> We implement industry-standard security measures.</p>
+                        <p><strong>Your Rights:</strong> You have rights to access, correct, and delete your data.</p>
+                        <p><strong>Contact:</strong> Questions about privacy? Contact us at privacy@rohpolabs.com</p>
+                    `;
+                }
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - RohpoLabs</title>
+    <meta name="description" content="RohpoLabs terms of service. Legal terms and conditions for using our mobile applications and services.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Embedded CSS for immediate styling -->
+    <style>
+        /* RohpoLabs Creative Colorful CSS Framework */
+
+        /* CSS Variables for Creative Color Palette */
+        :root {
+          /* Primary Colors - Creative & Colorful */
+          --primary-purple: #8B5CF6;
+          --primary-purple-light: #A78BFA;
+          --primary-purple-dark: #7C3AED;
+
+          /* Secondary Colors */
+          --secondary-blue: #3B82F6;
+          --secondary-blue-light: #60A5FA;
+          --secondary-blue-dark: #2563EB;
+
+          /* Accent Colors */
+          --accent-coral: #F43F5E;
+          --accent-coral-light: #FB7185;
+          --accent-coral-dark: #E11D48;
+
+          --highlight-lime: #84CC16;
+          --highlight-lime-light: #A3E635;
+          --highlight-lime-dark: #65A30D;
+
+          /* Neutral Colors */
+          --neutral-50: #FAFAFA;
+          --neutral-100: #F5F5F5;
+          --neutral-200: #E5E5E5;
+          --neutral-300: #D4D4D4;
+          --neutral-400: #A3A3A3;
+          --neutral-500: #737373;
+          --neutral-600: #525252;
+          --neutral-700: #404040;
+          --neutral-800: #262626;
+          --neutral-900: #171717;
+
+          /* Typography */
+          --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          --font-weight-light: 300;
+          --font-weight-normal: 400;
+          --font-weight-medium: 500;
+          --font-weight-semibold: 600;
+          --font-weight-bold: 700;
+
+          /* Spacing */
+          --space-xs: 0.25rem;
+          --space-sm: 0.5rem;
+          --space-md: 1rem;
+          --space-lg: 1.5rem;
+          --space-xl: 2rem;
+          --space-2xl: 3rem;
+          --space-3xl: 4rem;
+
+          /* Border Radius */
+          --radius-sm: 0.25rem;
+          --radius-md: 0.5rem;
+          --radius-lg: 0.75rem;
+          --radius-xl: 1rem;
+          --radius-2xl: 1.5rem;
+          --radius-full: 9999px;
+
+          /* Shadows */
+          --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+          --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+          --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+          --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          --shadow-colorful: 0 10px 15px -3px rgba(139, 92, 246, 0.2), 0 4px 6px -2px rgba(59, 130, 246, 0.1);
+
+          /* Transitions */
+          --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+          --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+          --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Base Styles */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        html {
+          scroll-behavior: smooth;
+        }
+
+        body {
+          font-family: var(--font-primary);
+          font-weight: var(--font-weight-normal);
+          line-height: 1.6;
+          color: var(--neutral-800);
+          background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+          min-height: 100vh;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+          font-weight: var(--font-weight-bold);
+          line-height: 1.2;
+          margin-bottom: var(--space-md);
+        }
+
+        h1 {
+          font-size: clamp(2rem, 5vw, 3rem);
+          background: linear-gradient(135deg, var(--secondary-blue), var(--accent-coral));
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        h2 {
+          font-size: clamp(1.8rem, 4vw, 2.5rem);
+          color: var(--neutral-900);
+        }
+
+        h3 {
+          font-size: clamp(1.4rem, 3vw, 1.8rem);
+          color: var(--neutral-800);
+        }
+
+        h4 {
+          font-size: clamp(1.2rem, 3vw, 1.4rem);
+          color: var(--neutral-700);
+        }
+
+        p {
+          margin-bottom: var(--space-md);
+          color: var(--neutral-600);
+        }
+
+        strong {
+          color: var(--neutral-700);
+        }
+
+        a {
+          color: var(--primary-purple);
+          text-decoration: none;
+          transition: color var(--transition-fast);
+        }
+
+        a:hover {
+          color: var(--primary-purple-dark);
+        }
+
+        /* Creative Buttons */
+        .btn {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: var(--space-md) var(--space-xl);
+          border-radius: var(--radius-xl);
+          font-weight: var(--font-weight-medium);
+          font-size: 1rem;
+          text-decoration: none;
+          transition: all var(--transition-normal);
+          cursor: pointer;
+          border: none;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .btn:hover {
+          transform: translateY(-2px);
+          box-shadow: var(--shadow-lg);
+        }
+
+        .btn-primary {
+          background: linear-gradient(135deg, var(--primary-purple), var(--primary-purple-light));
+          color: white;
+          box-shadow: var(--shadow-colorful);
+        }
+
+        .btn-primary:hover {
+          box-shadow: 0 15px 20px -5px rgba(139, 92, 246, 0.3);
+        }
+
+        .btn-secondary {
+          background: linear-gradient(135deg, var(--secondary-blue), var(--secondary-blue-light));
+          color: white;
+          box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.2);
+        }
+
+        .btn-highlight {
+          background: linear-gradient(135deg, var(--highlight-lime), var(--highlight-lime-light));
+          color: white;
+          box-shadow: 0 10px 15px -3px rgba(132, 204, 22, 0.2);
+        }
+
+        /* Layout Components */
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 var(--space-md);
+        }
+
+        /* Navigation Header */
+        .header {
+          background: rgba(255, 255, 255, 0.95);
+          backdrop-filter: blur(10px);
+          border-bottom: 1px solid var(--neutral-200);
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 1000;
+          padding: var(--space-md) 0;
+        }
+
+        .nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .logo {
+          font-size: 1.5rem;
+          font-weight: var(--font-weight-bold);
+          background: linear-gradient(135deg, var(--primary-purple), var(--secondary-blue));
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: flex;
+          align-items: center;
+        }
+
+        .nav-links {
+          display: flex;
+          gap: var(--space-xl);
+          list-style: none;
+        }
+
+        .nav-link {
+          color: var(--neutral-600);
+          font-weight: var(--font-weight-medium);
+          transition: color var(--transition-fast);
+          position: relative;
+        }
+
+        .nav-link:hover {
+          color: var(--primary-purple);
+        }
+
+        .nav-link::after {
+          content: '';
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          width: 0;
+          height: 2px;
+          background: linear-gradient(90deg, var(--primary-purple), var(--secondary-blue));
+          transition: width var(--transition-normal);
+        }
+
+        .nav-link:hover::after {
+          width: 100%;
+        }
+
+        /* Creative Cards */
+        .card {
+          background: white;
+          border-radius: var(--radius-2xl);
+          padding: var(--space-xl);
+          box-shadow: var(--shadow-lg);
+          transition: all var(--transition-normal);
+          position: relative;
+          overflow: hidden;
+        }
+
+        .card::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 4px;
+          background: linear-gradient(90deg, var(--primary-purple), var(--secondary-blue), var(--accent-coral), var(--highlight-lime));
+          animation: gradient-shift 3s ease-in-out infinite;
+        }
+
+        @keyframes gradient-shift {
+          0%, 100% { transform: translateX(0); }
+          50% { transform: translateX(10px); }
+        }
+
+        .card:hover {
+          transform: translateY(-5px);
+          box-shadow: var(--shadow-xl);
+        }
+
+        /* Main Content */
+        main {
+          padding: calc(100px + var(--space-3xl)) 0 var(--space-3xl);
+        }
+
+        /* Footer */
+        .footer {
+          background: var(--neutral-900);
+          color: white;
+          padding: var(--space-3xl) 0 var(--space-xl);
+          text-align: center;
+        }
+
+        .footer-content {
+          margin-bottom: var(--space-xl);
+        }
+
+        .footer-links {
+          display: flex;
+          justify-content: center;
+          gap: var(--space-xl);
+          margin-bottom: var(--space-lg);
+          flex-wrap: wrap;
+        }
+
+        .footer-link {
+          color: var(--neutral-400);
+          transition: color var(--transition-fast);
+          text-decoration: none;
+        }
+
+        .footer-link:hover {
+          color: var(--primary-purple-light);
+        }
+
+        /* Utility Classes */
+        .text-center { text-align: center; }
+        .mb-xl { margin-bottom: var(--space-xl); }
+        .mb-3xl { margin-bottom: var(--space-3xl); }
+        .mb-2xl { margin-bottom: var(--space-2xl); }
+
+        /* Lists */
+        ul {
+          list-style: none;
+          padding: 0;
+        }
+
+        ul li {
+          margin-bottom: var(--space-sm);
+          padding-left: var(--space-lg);
+          position: relative;
+        }
+
+        ul li::before {
+          content: '✓';
+          position: absolute;
+          left: 0;
+          color: var(--primary-purple);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          .nav-links {
+            display: none;
+          }
+
+          .footer-links {
+            flex-direction: column;
+            gap: var(--space-md);
+          }
+
+          .container {
+            padding: 0 var(--space-sm);
+          }
+
+          .card {
+            padding: var(--space-lg);
+          }
+
+          main {
+            padding: calc(80px + var(--space-2xl)) 0 var(--space-2xl);
+          }
+        }
+
+        @media (max-width: 480px) {
+          .container {
+            padding: 0 var(--space-sm);
+          }
+
+          .card {
+            padding: var(--space-md);
+          }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="container nav">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px; vertical-align: middle;">
+                    <circle cx="20" cy="20" r="18" fill="url(#gradient1)"/>
+                    <path d="M15 20L18 23L25 16" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <defs>
+                        <linearGradient id="gradient1" x1="2" y1="2" x2="38" y2="38">
+                            <stop stop-color="#8B5CF6"/>
+                            <stop offset="1" stop-color="#3B82F6"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                RohpoLabs
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index-styled.html" class="nav-link">Home</a></li>
+                <li><a href="../about.html" class="nav-link">About</a></li>
+                <li><a href="../apps/index.html" class="nav-link">Apps</a></li>
+                <li><a href="../index-styled.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+
+                <!-- Header -->
+                <div style="text-align: center; margin-bottom: var(--space-3xl);">
+                    <h1>Terms of Service</h1>
+                    <p style="font-size: 1.2rem; color: var(--neutral-600); max-width: 700px; margin: 0 auto;">
+                        Last updated: December 2024 | Effective Date: December 1, 2024
+                    </p>
+                    <div style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(244, 63, 94, 0.1)); padding: var(--space-xl); border-radius: var(--radius-xl); margin-top: var(--space-xl); border-left: 4px solid var(--secondary-blue);">
+                        <p style="color: var(--neutral-700); font-size: 1.1rem; margin: 0; text-align: left;">
+                            <strong>📋 Important Legal Agreement</strong><br>
+                            These Terms of Service ("Terms") govern your use of RohpoLabs mobile applications and services. By using our apps, you agree to these terms.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Acceptance of Terms -->
+                <section class="card mb-3xl">
+                    <h2 style="color: var(--secondary-blue); margin-bottom: var(--space-lg);">✅ Acceptance of Terms</h2>
+
+                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
+                        By downloading, installing, or using any RohpoLabs mobile application ("App"), you agree to be bound by these Terms of Service, our Privacy Policy, and any additional terms specific to individual apps.
+                    </p>
+
+                    <div style="background: rgba(244, 63, 94, 0.1); padding: var(--space-md); border-radius: var(--radius-lg); border-left: 4px solid var(--accent-coral);">
+                        <h3 style="color: var(--accent-coral); margin-bottom: var(--space-sm);">🚫 If You Disagree</h3>
+                        <p style="color: var(--neutral-700); margin: 0;">
+                            If you do not agree to these Terms, do not download, install, or use our Apps. You may uninstall our Apps at any time.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- License to Use -->
+                <section class="card mb-3xl">
+                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">🔑 License to Use</h2>
+
+                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
+                        Subject to your compliance with these Terms, RohpoLabs grants you a limited, non-exclusive, non-transferable, revocable license to:
+                    </p>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg); margin-bottom: var(--space-lg);">
+                        <div style="background: rgba(139, 92, 246, 0.05); padding: var(--space-lg); border-radius: var(--radius-lg); border-left: 4px solid var(--primary-purple);">
+                            <h4 style="color: var(--primary-purple); margin-bottom: var(--space-sm);">📱 What You Can Do</h4>
+                            <p style="color: var(--neutral-600); font-size: 0.9rem; margin: 0;">
+                                ✓ Download and install our Apps<br>
+                                ✓ Use for personal purposes<br>
+                                ✓ Install on multiple devices<br>
+                                ✓ Access all features included
+                            </p>
+                        </div>
+
+                        <div style="background: rgba(244, 63, 94, 0.05); padding: var(--space-lg); border-radius: var(--radius-lg); border-left: 4px solid var(--accent-coral);">
+                            <h4 style="color: var(--accent-coral); margin-bottom: var(--space-sm);">🚫 What You Cannot Do</h4>
+                            <p style="color: var(--neutral-600); font-size: 0.9rem; margin: 0;">
+                                ✗ Reverse engineer the Apps<br>
+                                ✗ Create derivative works<br>
+                                ✗ Sell or redistribute Apps<br>
+                                ✗ Use for commercial purposes<br>
+                                ✗ Bypass security features
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- User Conduct -->
+                <section class="card mb-3xl">
+                    <h2 style="color: var(--secondary-blue); margin-bottom: var(--space-lg);">🤝 User Conduct</h2>
+
+                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
+                        You agree to use our Apps responsibly and in accordance with all applicable laws and regulations.
+                    </p>
+
+                    <div style="background: rgba(59, 130, 246, 0.05); padding: var(--space-md); border-radius: var(--radius-lg); border-left: 4px solid var(--secondary-blue);">
+                        <h3 style="color: var(--secondary-blue); margin-bottom: var(--space-sm);">🚫 Prohibited Activities</h3>
+                        <p style="color: var(--neutral-700); margin: 0;">
+                            You must not violate laws, harm others, spread malware, engage in spam, interfere with app functionality, or infringe intellectual property rights.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Limitation of Liability -->
+                <section class="card mb-3xl">
+                    <h2 style="color: var(--accent-coral); margin-bottom: var(--space-lg);">⚖️ Limitation of Liability</h2>
+
+                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
+                        To the fullest extent permitted by law, RohpoLabs shall not be liable for indirect, special, consequential, or punitive damages.
+                    </p>
+
+                    <div style="background: rgba(132, 204, 22, 0.1); padding: var(--space-md); border-radius: var(--radius-lg); border-left: 4px solid var(--highlight-lime);">
+                        <h3 style="color: var(--highlight-lime); margin-bottom: var(--space-sm);">🎯 Maximum Liability</h3>
+                        <p style="color: var(--neutral-700); margin: 0;">
+                            Our total liability for any claims related to our Apps shall not exceed the amount you paid for the Apps, if any, or $100 USD, whichever is less.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Contact Information -->
+                <section class="card mb-3xl">
+                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">📧 Contact Information</h2>
+
+                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
+                        If you have any questions about these Terms of Service or our Apps, please contact us:
+                    </p>
+
+                    <div style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1)); padding: var(--space-xl); border-radius: var(--radius-xl); margin-top: var(--space-lg); text-align: center;">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-lg); text-align: left;">
+                            <div>
+                                <h4 style="color: var(--secondary-blue); margin-bottom: var(--space-sm);">💬 General Support</h4>
+                                <p style="color: var(--neutral-700); margin: 0;">
+                                    <strong>Email:</strong> <a href="mailto:support@rohpolabs.com" style="color: var(--primary-purple);">support@rohpolabs.com</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h4 style="color: var(--primary-purple); margin-bottom: var(--space-sm);">📱 Apps</h4>
+                                <p style="color: var(--neutral-700); margin: 0;">
+                                    <strong>Store:</strong> Google Play & Apple App Store<br>
+                                    <strong>Updates:</strong> Regular improvements
+                                </p>
+                            </div>
+                            <div>
+                                <h4 style="color: var(--accent-coral); margin-bottom: var(--space-sm);">🏢 Business</h4>
+                                <p style="color: var(--neutral-700); margin: 0;">
+                                    <strong>Partnerships:</strong> <a href="mailto:business@rohpolabs.com" style="color: var(--primary-purple);">business@rohpolabs.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: var(--space-xl);">
+                        <a href="../index-styled.html" class="btn btn-primary">← Back to Home</a>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                    <h3 style="margin-bottom: var(--space-md); color: white;">RohpoLabs</h3>
+                    <p style="color: var(--neutral-400); margin-bottom: var(--space-xl);">
+                        Our terms are designed to be fair, transparent, and protect both you and our creative mobile applications.
+                    </p>
+                    <div class="footer-links">
+                        <a href="../index-styled.html" class="footer-link">Home</a>
+                        <a href="../about.html" class="footer-link">About</a>
+                        <a href="../apps/index.html" class="footer-link">Apps</a>
+                        <a href="privacy-policy-styled.html" class="footer-link">Privacy Policy</a>
+                        <a href="terms-of-service-styled.html" class="footer-link">Terms of Service</a>
+                    </div>
+                    <div style="margin-top: var(--space-lg);">
+                        <p style="color: var(--neutral-500); font-size: 0.875rem;">
+                            © 2024 RohpoLabs. All rights reserved. Made with ❤️ and clear, fair terms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
