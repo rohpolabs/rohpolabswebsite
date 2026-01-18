@@ -61,175 +61,99 @@
                     Each app is carefully crafted with user experience, privacy, and creativity in mind.
                 </p>
                 <div class="hero-actions">
-                    <a href="#featured-app" class="btn btn-primary">Featured App</a>
-                    <a href="#categories" class="btn btn-secondary">Browse Categories</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- App Categories Section -->
-    <section id="categories" class="section">
-        <div class="container">
-            <div class="section-title">
-                <h2>App Categories</h2>
-                <p style="max-width: 600px; margin: 0 auto; font-size: 1.2rem;">
-                    Explore my apps organized by category to find exactly what you need
-                </p>
-            </div>
-
-            <div class="grid grid-3">
-                <div class="card" style="cursor: pointer;" onclick="filterApps('utilities')">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, var(--primary-purple), var(--primary-purple-light)); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-lg); font-size: 2rem;">
-                        🔧
-                    </div>
-                    <h3 style="color: var(--primary-purple); text-align: center;">Utilities</h3>
-                    <p style="text-align: center;">
-                        Practical tools that solve everyday problems. From productivity boosters to life hacks, these apps make your daily routine easier and more efficient.
-                    </p>
-                    <div style="text-align: center; margin-top: var(--space-lg);">
-                        <span class="tag tag-purple">3 Apps</span>
-                    </div>
-                </div>
-
-                <div class="card" style="cursor: pointer;" onclick="filterApps('productivity')">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, var(--secondary-blue), var(--secondary-blue-light)); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-lg); font-size: 2rem;">
-                        ⚡
-                    </div>
-                    <h3 style="color: var(--secondary-blue); text-align: center;">Productivity</h3>
-                    <p style="text-align: center;">
-                        Boost your efficiency and get more done with apps designed to streamline workflows, manage time, and enhance focus.
-                    </p>
-                    <div style="text-align: center; margin-top: var(--space-lg);">
-                        <span class="tag tag-blue">2 Apps</span>
-                    </div>
-                </div>
-
-                <div class="card" style="cursor: pointer;" onclick="filterApps('creative')">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, var(--accent-coral), var(--accent-coral-light)); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-lg); font-size: 2rem;">
-                        🎨
-                    </div>
-                    <h3 style="color: var(--accent-coral); text-align: center;">Creative Tools</h3>
-                    <p style="text-align: center;">
-                        Unleash your creativity with apps that help you express yourself, organize ideas, and bring your imaginative projects to life.
-                    </p>
-                    <div style="text-align: center; margin-top: var(--space-lg);">
-                        <span class="tag tag-coral">1 App</span>
-                    </div>
+                    <a href="#mark365" class="btn btn-primary">Featured App</a>
+                    <a href="#all-apps" class="btn btn-secondary">All Apps</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Featured App Section -->
-    <section id="featured-app" class="section" style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%);">
+    <section id="mark365" class="section" style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%);">
         <div class="container">
             <div class="section-title">
-                <h2>🚀 Featured App</h2>
+                <h2>🌟 Featured App</h2>
                 <p style="max-width: 600px; margin: 0 auto; font-size: 1.2rem;">
-                    My latest creation - a groundbreaking utility app coming soon!
+                    Mark 365 - A life logging calendar to track your daily experiences
                 </p>
             </div>
 
             <div style="max-width: 1000px; margin: 0 auto;">
-                <div class="app-card" style="border: 2px solid transparent; background-clip: padding-box; position: relative;">
-                    <div class="app-card-header" style="background: linear-gradient(135deg, var(--primary-purple), var(--secondary-blue), var(--accent-coral)); position: relative; overflow: hidden;">
-                        <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%); animation: float 8s ease-in-out infinite;"></div>
-                        <div style="text-align: center; position: relative; z-index: 1;">
+                <div class="app-card" style="border: 2px solid transparent; background-clip: padding-box;">
+                    <div class="app-card-header" style="background: linear-gradient(135deg, var(--primary-purple), var(--secondary-blue));">
+                        <div style="text-align: center;">
                             <div style="background: white; width: 100px; height: 100px; border-radius: var(--radius-2xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); box-shadow: var(--shadow-xl);">
                                 <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M20 7L9 18L4 13" stroke="url(#appGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M20 12L9 23L4 18" stroke="url(#appGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <rect x="3" y="4" width="18" height="16" rx="2" stroke="url(#appGradient)" stroke-width="3" fill="none"/>
+                                    <path d="M9 10L9 14M12 10L12 14M15 10L15 14M6 4H18" stroke="url(#appGradient)" stroke-width="3" stroke-linecap="round"/>
                                     <defs>
-                                        <linearGradient id="appGradient" x1="4" y1="7" x2="20" y2="23">
+                                        <linearGradient id="appGradient" x1="3" y1="4" x2="21" y2="20">
                                             <stop stop-color="#8B5CF6"/>
-                                            <stop offset="1" stop-color="#F43F5E"/>
+                                            <stop offset="1" stop-color="#3B82F6"/>
                                         </linearGradient>
                                     </defs>
                                 </svg>
                             </div>
                             <div style="background: rgba(255,255,255,0.2); padding: var(--space-sm) var(--space-md); border-radius: var(--radius-full); display: inline-block; margin-bottom: var(--space-md);">
-                                <span style="color: white; font-weight: bold; font-size: 0.875rem;">🎯 COMING SOON</span>
+                                <span style="color: white; font-weight: bold; font-size: 0.875rem;">📱 AVAILABLE NOW</span>
                             </div>
-                            <h2 style="color: white; font-size: 2.5rem; margin-bottom: var(--space-sm); text-shadow: 0 2px 10px rgba(0,0,0,0.2);">TaskMaster Pro</h2>
+                            <h2 style="color: white; font-size: 2.5rem; margin-bottom: var(--space-sm); text-shadow: 0 2px 10px rgba(0,0,0,0.2);">Mark 365 - The Life Calendar</h2>
                             <p style="color: rgba(255,255,255,0.95); font-size: 1.3rem; max-width: 500px; margin: 0 auto;">
-                                Revolutionary task management with AI-powered prioritization and gamification
+                                Track your life journey one day at a time with emoji-based calendar entries
                             </p>
                         </div>
                     </div>
                     <div class="app-card-content">
                         <div style="margin-bottom: var(--space-xl);">
-                            <h3 style="color: var(--neutral-900); font-size: 1.8rem; margin-bottom: var(--space-md);">Transform Your Productivity</h3>
+                            <h3 style="color: var(--neutral-900); font-size: 1.8rem; margin-bottom: var(--space-md);">Track Your Life's Journey</h3>
                             <p style="font-size: 1.1rem; line-height: 1.7; color: var(--neutral-700);">
-                                TaskMaster Pro isn't just another task manager. It's a complete productivity ecosystem that
-                                adapts to your work style, learns from your habits, and makes completing tasks genuinely
-                                enjoyable through intelligent gamification and beautiful design.
+                                Mark 365 is a beautiful life logging app that helps you track your daily experiences through a yearly calendar.
+                                Mark each day with meaningful emojis, add notes to important dates, and visualize your life patterns over time.
                             </p>
                         </div>
 
                         <div style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-md); margin-bottom: var(--space-xl); display: grid;">
                             <div style="text-align: center;">
-                                <div style="font-size: 2rem; font-weight: bold; color: var(--primary-purple);">🤖</div>
-                                <h4 style="color: var(--neutral-800); margin-bottom: var(--space-sm);">AI-Powered</h4>
-                                <p style="font-size: 0.9rem; color: var(--neutral-600);">Smart prioritization and task suggestions</p>
+                                <div style="font-size: 2rem; font-weight: bold; color: var(--primary-purple);">📅</div>
+                                <h4 style="color: var(--neutral-800); margin-bottom: var(--space-sm);">Yearly Calendar</h4>
+                                <p style="font-size: 0.9rem; color: var(--neutral-600);">Visual 365-day calendar view</p>
                             </div>
                             <div style="text-align: center;">
-                                <div style="font-size: 2rem; font-weight: bold; color: var(--secondary-blue);">🎮</div>
-                                <h4 style="color: var(--neutral-800); margin-bottom: var(--space-sm);">Gamification</h4>
-                                <p style="font-size: 0.9rem; color: var(--neutral-600);">Earn rewards and unlock achievements</p>
+                                <div style="font-size: 2rem; font-weight: bold; color: var(--secondary-blue);">😊</div>
+                                <h4 style="color: var(--neutral-800); margin-bottom: var(--space-sm);">Emoji Tracking</h4>
+                                <p style="font-size: 0.9rem; color: var(--neutral-600);">Mark days with custom emojis</p>
                             </div>
                             <div style="text-align: center;">
-                                <div style="font-size: 2rem; font-weight: bold; color: var(--accent-coral);">📊</div>
-                                <h4 style="color: var(--neutral-800); margin-bottom: var(--space-sm);">Analytics</h4>
-                                <p style="font-size: 0.9rem; color: var(--neutral-600);">Track your productivity patterns</p>
+                                <div style="font-size: 2rem; font-weight: bold; color: var(--accent-coral);">📝</div>
+                                <h4 style="color: var(--neutral-800); margin-bottom: var(--space-sm);">Daily Notes</h4>
+                                <p style="font-size: 0.9rem; color: var(--neutral-600);">Add notes to any date</p>
                             </div>
                             <div style="text-align: center;">
-                                <div style="font-size: 2rem; font-weight: bold; color: var(--highlight-lime);">🔗</div>
-                                <h4 style="color: var(--neutral-800); margin-bottom: var(--space-sm);">Sync</h4>
-                                <p style="font-size: 0.9rem; color: var(--neutral-600);">Seamless cross-platform sync</p>
+                                <div style="font-size: 2rem; font-weight: bold; color: var(--highlight-lime);">📊</div>
+                                <h4 style="color: var(--neutral-800); margin-bottom: var(--space-sm);">Export Data</h4>
+                                <p style="font-size: 0.9rem; color: var(--neutral-600);">CSV and Excel export</p>
                             </div>
                         </div>
 
                         <div class="app-tags" style="justify-content: center;">
-                            <span class="tag tag-purple">Productivity</span>
-                            <span class="tag tag-blue">Task Management</span>
-                            <span class="tag tag-coral">AI Assistant</span>
-                            <span class="tag tag-lime">Gamification</span>
-                            <span class="tag tag-purple">Utilities</span>
+                            <span class="tag tag-purple">Lifestyle</span>
+                            <span class="tag tag-blue">Calendar</span>
+                            <span class="tag tag-coral">Life Logging</span>
+                            <span class="tag tag-lime">Privacy First</span>
                         </div>
 
                         <div style="text-align: center; margin-top: var(--space-xl);">
-                            <div style="background: linear-gradient(135deg, rgba(132, 204, 22, 0.1), rgba(244, 63, 94, 0.1)); padding: var(--space-xl); border-radius: var(--radius-xl); margin-bottom: var(--space-xl); border-left: 4px solid var(--highlight-lime); border-right: 4px solid var(--accent-coral);">
-                                <h4 style="color: var(--highlight-lime); margin-bottom: var(--space-md);">🚀 Launch Announcement</h4>
+                            <div style="background: linear-gradient(135deg, rgba(132, 204, 22, 0.1), rgba(244, 63, 94, 0.1)); padding: var(--space-xl); border-radius: var(--radius-xl); margin-bottom: var(--space-xl);">
+                                <h4 style="color: var(--highlight-lime); margin-bottom: var(--space-md);">🔒 Privacy First</h4>
                                 <p style="color: var(--neutral-700); font-size: 1.1rem; margin-bottom: var(--space-md);">
-                                    TaskMaster Pro will be launching soon on both Google Play Store and Apple App Store!
-                                    Join the waitlist to get early access and exclusive launch-day bonuses.
+                                    All your data is stored locally on your device. No account required, no cloud sync,
+                                    no tracking. Your life journey stays private and secure.
                                 </p>
-                                <div style="display: flex; gap: var(--space-md); justify-content: center; align-items: center; flex-wrap: wrap;">
-                                    <div style="text-align: center;">
-                                        <div style="font-weight: bold; color: var(--secondary-blue);">Platform</div>
-                                        <p style="font-size: 0.9rem; color: var(--neutral-600); margin: 0;">Android & iOS</p>
-                                    </div>
-                                    <div style="text-align: center;">
-                                        <div style="font-weight: bold; color: var(--primary-purple);">Status</div>
-                                        <p style="font-size: 0.9rem; color: var(--neutral-600); margin: 0;">In Development</p>
-                                    </div>
-                                    <div style="text-align: center;">
-                                        <div style="font-weight: bold; color: var(--accent-coral);">Launch</div>
-                                        <p style="font-size: 0.9rem; color: var(--neutral-600); margin: 0;">Q1 2024</p>
-                                    </div>
-                                </div>
                             </div>
 
                             <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
-                                <button class="btn btn-highlight" style="background: linear-gradient(135deg, var(--highlight-lime), var(--highlight-lime-light)); color: var(--neutral-900); position: relative;">
-                                    <span style="margin-right: var(--space-sm);">🔔</span>
-                                    Join Waitlist
-                                </button>
-                                <a href="#" class="btn btn-secondary" style="opacity: 0.8; cursor: not-allowed;">
-                                    <span style="margin-right: var(--space-sm);">📱</span>
-                                    View Store Page (Coming Soon)
-                                </a>
+                                <a href="Mark365/privacy-policy.html" class="btn btn-primary">Privacy Policy</a>
+                                <a href="Mark365/terms-of-service.html" class="btn btn-secondary">Terms of Service</a>
                             </div>
                         </div>
                     </div>
@@ -238,61 +162,63 @@
         </div>
     </section>
 
-    <!-- Other Apps Section -->
-    <section class="section">
+    <!-- All Apps Section -->
+    <section id="all-apps" class="section">
         <div class="container">
             <div class="section-title">
-                <h2>More Apps In Development</h2>
+                <h2>All Applications</h2>
                 <p style="max-width: 600px; margin: 0 auto; font-size: 1.2rem;">
-                    Exciting projects currently in the pipeline - stay tuned for updates!
+                    Explore my complete collection of mobile applications
                 </p>
             </div>
 
             <div class="grid grid-2">
+                <!-- DibTask App -->
                 <div class="app-card">
                     <div class="app-card-header" style="background: linear-gradient(135deg, var(--accent-coral), var(--highlight-lime));">
                         <div style="text-align: center;">
                             <div style="background: white; width: 80px; height: 80px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); box-shadow: var(--shadow-lg);">
                                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="12" cy="12" r="10" stroke="url(#appGradient2)" stroke-width="3" fill="none"/>
-                                    <path d="M12 6V12L16 14" stroke="url(#appGradient2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9 11L12 14L22 4" stroke="url(#appGradient2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <rect x="3" y="3" width="18" height="18" rx="2" stroke="url(#appGradient2)" stroke-width="3" fill="none"/>
                                     <defs>
-                                        <linearGradient id="appGradient2" x1="2" y1="6" x2="22" y2="18">
+                                        <linearGradient id="appGradient2" x1="3" y1="3" x2="21" y2="21">
                                             <stop stop-color="#F43F5E"/>
                                             <stop offset="1" stop-color="#84CC16"/>
                                         </linearGradient>
                                     </defs>
                                 </svg>
                             </div>
-                            <h3 style="color: white; font-size: 1.8rem;">FocusFlow</h3>
-                            <p style="color: rgba(255,255,255,0.9);">Time tracking with wellness insights</p>
+                            <h3 style="color: white; font-size: 1.8rem;">DibTask</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Smart task management for everyday productivity</p>
                         </div>
                     </div>
                     <div class="app-card-content">
-                        <h3 class="app-title">FocusFlow</h3>
+                        <h3 class="app-title">DibTask</h3>
                         <p class="app-description">
-                            A unique time tracking app that combines productivity monitoring with wellness insights.
-                            Learn about your focus patterns, energy levels, and work habits to optimize your daily routine.
+                            A streamlined task management app designed to help you stay organized and productive.
+                            Create tasks, set priorities, and track your progress with a clean, intuitive interface.
                         </p>
                         <div class="app-tags">
                             <span class="tag tag-coral">Productivity</span>
-                            <span class="tag tag-lime">Wellness</span>
-                            <span class="tag tag-blue">Analytics</span>
+                            <span class="tag tag-lime">Tasks</span>
+                            <span class="tag tag-blue">Organization</span>
                         </div>
                         <div style="display: flex; gap: var(--space-md); margin-top: var(--space-lg);">
-                            <button class="btn btn-primary" disabled style="opacity: 0.7;">🚧 In Development</button>
-                            <button class="btn btn-secondary" disabled style="opacity: 0.5;">📧 Notify Me</button>
+                            <a href="dibtask/privacy-policy.html" class="btn btn-primary">Privacy Policy</a>
+                            <a href="dibtask/terms-of-service.html" class="btn btn-secondary">Terms of Service</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- TaskMaster Pro App -->
                 <div class="app-card">
                     <div class="app-card-header" style="background: linear-gradient(135deg, var(--highlight-lime), var(--primary-purple));">
                         <div style="text-align: center;">
                             <div style="background: white; width: 80px; height: 80px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); box-shadow: var(--shadow-lg);">
                                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="3" y="3" width="18" height="18" rx="2" stroke="url(#appGradient3)" stroke-width="3" fill="none"/>
-                                    <path d="M9 3V21M15 3V21M3 9H21M3 15H21" stroke="url(#appGradient3)" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M9 11L12 14L22 4M3 6H21M8 12V16M4 12H20" stroke="url(#appGradient3)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                                     <defs>
                                         <linearGradient id="appGradient3" x1="3" y1="3" x2="21" y2="21">
                                             <stop stop-color="#84CC16"/>
@@ -301,24 +227,24 @@
                                     </defs>
                                 </svg>
                             </div>
-                            <h3 style="color: white; font-size: 1.8rem;">NoteCraft</h3>
-                            <p style="color: rgba(255,255,255,0.9);">Creative note-taking with visual organization</p>
+                            <h3 style="color: white; font-size: 1.8rem;">TaskMaster Pro</h3>
+                            <p style="color: rgba(255,255,255,0.9);">AI-powered productivity with intelligent task management</p>
                         </div>
                     </div>
                     <div class="app-card-content">
-                        <h3 class="app-title">NoteCraft</h3>
+                        <h3 class="app-title">TaskMaster Pro</h3>
                         <p class="app-description">
-                            Revolutionary note-taking app that combines text, sketches, and mind maps. Perfect for creative
-                            professionals who need a flexible, visual way to organize ideas and projects.
+                            Advanced task management with AI-powered prioritization and smart suggestions.
+                            Organize your life with intelligent task sorting, reminders, and productivity tracking.
                         </p>
                         <div class="app-tags">
-                            <span class="tag tag-lime">Creative Tools</span>
-                            <span class="tag tag-purple">Notes</span>
-                            <span class="tag tag-coral">Organization</span>
+                            <span class="tag tag-lime">Productivity</span>
+                            <span class="tag tag-purple">AI Assistant</span>
+                            <span class="tag tag-coral">Tasks</span>
                         </div>
                         <div style="display: flex; gap: var(--space-md); margin-top: var(--space-lg);">
-                            <button class="btn btn-primary" disabled style="opacity: 0.7;">🚧 Planning Phase</button>
-                            <button class="btn btn-secondary" disabled style="opacity: 0.5;">💡 Suggest Features</button>
+                            <a href="taskmaster-pro/privacy-policy.html" class="btn btn-primary">Privacy Policy</a>
+                            <a href="taskmaster-pro/terms-of-service.html" class="btn btn-secondary">Terms of Service</a>
                         </div>
                     </div>
                 </div>
@@ -326,68 +252,48 @@
         </div>
     </section>
 
-    <!-- Development Roadmap Section -->
+    <!-- App Features Section -->
     <section class="section" style="background: var(--neutral-100);">
         <div class="container">
             <div class="section-title">
-                <h2>Development Roadmap</h2>
+                <h2>Why Choose RohpoLabs Apps?</h2>
                 <p style="max-width: 600px; margin: 0 auto; font-size: 1.2rem;">
-                    What's coming next in my app development journey
+                    Built with privacy, creativity, and user experience at the core
                 </p>
             </div>
 
-            <div class="card" style="max-width: 900px; margin: 0 auto;">
-                <div style="position: relative; padding-left: var(--space-2xl);">
-                    <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, var(--primary-purple), var(--secondary-blue), var(--accent-coral), var(--highlight-lime)); border-radius: var(--radius-full);"></div>
-
-                    <div style="position: relative; padding-left: var(--space-xl); margin-bottom: var(--space-xl);">
-                        <div style="position: absolute; left: -10px; top: 0; width: 24px; height: 24px; background: var(--primary-purple); border: 4px solid white; border-radius: 50%; box-shadow: var(--shadow-md);"></div>
-                        <h3 style="color: var(--primary-purple); margin-bottom: var(--space-sm);">Q1 2024</h3>
-                        <h4 style="margin-bottom: var(--space-md);">TaskMaster Pro Launch</h4>
-                        <p style="color: var(--neutral-600);">
-                            Complete development, beta testing, and official launch on both Android and iOS platforms.
-                            Initial feature set with core AI capabilities and gamification system.
-                        </p>
+            <div class="grid grid-3">
+                <div class="card text-center">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--primary-purple), var(--primary-purple-light)); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-lg); font-size: 1.5rem;">
+                        🛡️
                     </div>
-
-                    <div style="position: relative; padding-left: var(--space-xl); margin-bottom: var(--space-xl);">
-                        <div style="position: absolute; left: -10px; top: 0; width: 24px; height: 24px; background: var(--secondary-blue); border: 4px solid white; border-radius: 50%; box-shadow: var(--shadow-md);"></div>
-                        <h3 style="color: var(--secondary-blue); margin-bottom: var(--space-sm);">Q2 2024</h3>
-                        <h4 style="margin-bottom: var(--space-md);">FocusFlow Development</h4>
-                        <p style="color: var(--neutral-600);">
-                            Begin development of FocusFlow with focus on wellness tracking and productivity analytics.
-                            Early access program for beta testers.
-                        </p>
-                    </div>
-
-                    <div style="position: relative; padding-left: var(--space-xl); margin-bottom: var(--space-xl);">
-                        <div style="position: absolute; left: -10px; top: 0; width: 24px; height: 24px; background: var(--accent-coral); border: 4px solid white; border-radius: 50%; box-shadow: var(--shadow-md);"></div>
-                        <h3 style="color: var(--accent-coral); margin-bottom: var(--space-sm);">Q3 2024</h3>
-                        <h4 style="margin-bottom: var(--space-md);">NoteCraft Research & Design</h4>
-                        <p style="color: var(--neutral-600);">
-                            User research and UI/UX design for NoteCraft. Community feedback integration and
-                            feature prioritization.
-                        </p>
-                    </div>
-
-                    <div style="position: relative; padding-left: var(--space-xl);">
-                        <div style="position: absolute; left: -10px; top: 0; width: 24px; height: 24px; background: var(--highlight-lime); border: 4px solid white; border-radius: 50%; box-shadow: var(--shadow-md);"></div>
-                        <h3 style="color: var(--highlight-lime); margin-bottom: var(--space-sm);">Q4 2024</h3>
-                        <h4 style="margin-bottom: var(--space-md);">Expansion & Community</h4>
-                        <p style="color: var(--neutral-600);">
-                            Launch of FocusFlow, NoteCraft development begins, community features for existing apps,
-                            and exploration of new app categories.
-                        </p>
-                    </div>
+                    <h3 style="color: var(--primary-purple);">Privacy First</h3>
+                    <p>
+                        Your data stays on your device. No account required for most apps.
+                        No tracking, no selling your data, ever.
+                    </p>
                 </div>
 
-                <div style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(132, 204, 22, 0.1)); padding: var(--space-xl); border-radius: var(--radius-xl); margin-top: var(--space-xl); text-align: center;">
-                    <h4 style="color: var(--primary-purple); margin-bottom: var(--space-md);">🚀 Join the Journey</h4>
-                    <p style="color: var(--neutral-700); font-size: 1.1rem; margin-bottom: var(--space-lg);">
-                        Want to be part of my app development journey? I'm always looking for beta testers,
-                        feedback, and ideas from people who are passionate about great mobile experiences.
+                <div class="card text-center">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--secondary-blue), var(--secondary-blue-light)); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-lg); font-size: 1.5rem;">
+                        🎨
+                    </div>
+                    <h3 style="color: var(--secondary-blue);">Creative Design</h3>
+                    <p>
+                        Beautiful, colorful interfaces that make using the apps enjoyable.
+                        Thoughtful micro-interactions and smooth animations.
                     </p>
-                    <a href="../index.html#contact" class="btn btn-primary">Get In Touch</a>
+                </div>
+
+                <div class="card text-center">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--accent-coral), var(--accent-coral-light)); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-lg); font-size: 1.5rem;">
+                        ⚡
+                    </div>
+                    <h3 style="color: var(--accent-coral);">Offline First</h3>
+                    <p>
+                        Apps work without internet. Your data is yours,
+                        stored locally and accessible anytime, anywhere.
+                    </p>
                 </div>
             </div>
         </div>
@@ -397,15 +303,14 @@
     <section class="section">
         <div class="container">
             <div class="card" style="text-align: center; max-width: 800px; margin: 0 auto; background: linear-gradient(135deg, var(--secondary-blue), var(--accent-coral)); color: white;">
-                <h2 style="color: white; margin-bottom: var(--space-lg);">Ready to Transform Your Mobile Experience?</h2>
+                <h2 style="color: white; margin-bottom: var(--space-lg);">Have Feedback or Ideas?</h2>
                 <p style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-bottom: var(--space-xl);">
-                    Whether you're waiting for my next app launch or have ideas for future projects,
-                    I'd love to connect with you. Let's build amazing mobile experiences together!
+                    I'm always looking to improve my apps and create new tools that help you.
+                    Your feedback shapes the future of RohpoLabs apps!
                 </p>
                 <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
-                    <a href="#featured-app" class="btn btn-highlight" style="background: white; color: var(--secondary-blue);">View Featured App</a>
-                    <a href="../index.html" class="btn btn-secondary" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">Learn About RohpoLabs</a>
-                    <a href="../about.html" class="btn btn-primary" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">My Developer Story</a>
+                    <a href="../index.html#contact" class="btn btn-highlight" style="background: white; color: var(--secondary-blue);">Get In Touch</a>
+                    <a href="../about.html" class="btn btn-secondary" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">About RohpoLabs</a>
                 </div>
             </div>
         </div>
@@ -430,7 +335,7 @@
                     </div>
                     <div style="margin-top: var(--space-lg);">
                         <p style="color: var(--neutral-500); font-size: 0.875rem;">
-                            © 2025 RohpoLabs. All rights reserved.
+                            © 2026 RohpoLabs. All rights reserved.
                         </p>
                     </div>
                 </div>

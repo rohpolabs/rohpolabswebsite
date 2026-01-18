@@ -1,0 +1,83 @@
+# Privacy Policy - TaskMaster Pro
+
+Last updated: December 2024
+Effective Date: December 1, 2024
+
+1. Information We Collect
+
+For TaskMaster Pro, we collect:
+- Task data (titles, descriptions, due dates, categories, priorities)
+- User account information (email, username when you create an account)
+- Device information for compatibility and performance
+- Usage analytics (anonymized)
+- Performance data (app crashes, response times, technical diagnostics)
+- Storage data (local app settings, preferences, cached data stored on your device)
+
+2. How We Use Your Information
+
+We use your information only for legitimate purposes that are clearly explained and necessary for providing our services:
+- Provide core app functionality
+- Sync data across your devices when you enable these features
+- Personalize user experience
+- Save your preferences and settings
+- Improve app performance and fix bugs and issues
+- Maintain app security and regular security updates
+
+3. Data Sharing
+
+We share your information in limited circumstances:
+- With your consent when you explicitly authorize us to share specific information
+- With trusted third-party services necessary to operate our apps (e.g., cloud storage, authentication)
+- When required by law, court order, or to protect our rights
+- In connection with business transfers (with proper notice)
+
+4. Data Security
+
+We implement comprehensive security measures to protect your information:
+- Industry-standard encryption for data transmission and at rest
+- Secure OAuth2 authentication with Google and Apple
+- Regular security audits and penetration testing
+- Secure cloud storage with encryption at rest
+- Privacy by design - minimal necessary data collection
+
+5. Your Rights
+
+You have the following rights regarding your personal information:
+- Request a copy of your personal data that we hold
+- Request correction of inaccurate information that we hold
+- Request deletion of your personal data and associated data permanently
+- Request a portable copy of your data in a machine-readable format (JSON, CSV)
+- Request correction of inaccurate information
+- Object to our processing of your personal information in certain circumstances
+- Withdraw consent where legally permitted
+
+To exercise these rights, please contact us at:
+- Privacy questions: privacy@rohpolabs.com
+- General requests: hello@rohpolabs.com
+- Physical address: RohpoLabs, [Your Address]
+
+6. Data Retention
+
+We retain your data only as long as necessary for providing our services:
+- You can delete your account and we will remove all associated data within 30 days
+- Anonymized usage data may be retained indefinitely for statistical purposes
+
+7. Children's Privacy
+
+TaskMaster Pro is not intended for children under 13:
+- We do not knowingly collect information from children
+- We do not knowingly market to children
+- Parents are responsible for monitoring their children's usage
+
+8. Contact Us
+
+- Privacy questions: privacy@rohpolabs.com
+- Support requests: support@rohpolabs.com
+- General inquiries: hello@rohpolabs.com
+- Physical address: RohpoLabs, [Your Address]
+
+9. Changes to This Policy
+
+- We will notify users of significant changes
+- Updated versions will be posted on this page
+- Continued use constitutes acceptance of updated terms

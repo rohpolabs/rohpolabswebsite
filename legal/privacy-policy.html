@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - RohpoLabs</title>
-    <meta name="description" content="RohpoLabs comprehensive privacy policy. Learn how we collect, use, and protect your data across all our mobile applications.">
+    <meta name="description" content="RohpoLabs comprehensive privacy policy. Learn how we protect your privacy across all our mobile applications.">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph Meta Tags -->
@@ -24,6 +24,73 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Static Page Styles -->
+    <style>
+        .static-container {
+            max-width: 900px;
+            margin: calc(100px + 3rem) auto;
+            padding: var(--space-md);
+        }
+        .page-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--primary-purple);
+            margin-bottom: var(--space-lg);
+        }
+        .page-info {
+            text-align: center;
+            color: var(--neutral-600);
+            margin-bottom: var(--space-xl);
+        }
+        .content-area {
+            background: white;
+            padding: var(--space-2xl);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
+            margin-bottom: var(--space-xl);
+        }
+        .content-area p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: var(--neutral-700);
+        }
+        .content-area h2 {
+            color: var(--secondary-blue);
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .content-area h3 {
+            color: var(--neutral-600);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 1.25rem;
+            margin-bottom: 0.75rem;
+        }
+        .content-area strong {
+            color: var(--neutral-800);
+            font-weight: 600;
+        }
+        .content-area ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .content-area li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+            color: var(--neutral-700);
+        }
+        .content-area a {
+            color: var(--primary-purple);
+            text-decoration: none;
+        }
+        .content-area a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation Header -->
@@ -48,345 +115,137 @@
                 <li><a href="../index.html" class="nav-link">Home</a></li>
                 <li><a href="../about.html" class="nav-link">About</a></li>
                 <li><a href="../apps/index.html" class="nav-link">Apps</a></li>
-                <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="privacy-policy.html" class="nav-link">Privacy</a></li>
+                <li><a href="terms-of-service.html" class="nav-link">Terms</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main Content -->
-    <main style="padding: calc(100px + var(--space-3xl)) 0 var(--space-3xl);">
+    <main>
         <div class="container">
-            <div style="max-width: 900px; margin: 0 auto;">
-
-                <!-- Header -->
-                <div style="text-align: center; margin-bottom: var(--space-3xl);">
-                    <h1 style="font-size: clamp(2rem, 5vw, 3rem); margin-bottom: var(--space-lg); color: var(--primary-purple);">
-                        Privacy Policy
-                    </h1>
-                    <p style="font-size: 1.2rem; color: var(--neutral-600); max-width: 700px; margin: 0 auto;">
-                        Last updated: December 2024 | Effective Date: December 1, 2024
-                    </p>
-                    <div style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1)); padding: var(--space-xl); border-radius: var(--radius-xl); margin-top: var(--space-xl); border-left: 4px solid var(--primary-purple);">
-                        <p style="color: var(--neutral-700); font-size: 1.1rem; margin: 0; text-align: left;">
-                            <strong>🛡️ Your Privacy Matters</strong><br>
-                            At RohpoLabs, we believe privacy is a fundamental right. This policy outlines how we handle your data across all our applications with complete transparency and respect for your privacy.
-                        </p>
-                    </div>
+            <div class="static-container">
+                <!-- Page Title -->
+                <div class="page-title">Privacy Policy</div>
+                <div class="page-info">
+                    Last updated: January 2026 | Effective Date: January 18, 2026
                 </div>
 
-                <!-- Table of Contents -->
-                <div class="card" style="margin-bottom: var(--space-3xl);">
-                    <h2 style="color: var(--secondary-blue); margin-bottom: var(--space-lg);">📋 Table of Contents</h2>
-                    <ul style="list-style: none; padding: 0;">
-                        <li style="margin-bottom: var(--space-sm);"><a href="#information-we-collect" style="color: var(--primary-purple); text-decoration: none;">🔍 Information We Collect</a></li>
-                        <li style="margin-bottom: var(--space-sm);"><a href="#how-we-use-information" style="color: var(--primary-purple); text-decoration: none;">🎯 How We Use Your Information</a></li>
-                        <li style="margin-bottom: var(--space-sm);"><a href="#data-sharing" style="color: var(--primary-purple); text-decoration: none;">🤝 Data Sharing and Third Parties</a></li>
-                        <li style="margin-bottom: var(--space-sm);"><a href="#data-security" style="color: var(--primary-purple); text-decoration: none;">🔒 Data Security</a></li>
-                        <li style="margin-bottom: var(--space-sm);"><a href="#data-retention" style="color: var(--primary-purple); text-decoration: none;">⏰️ Data Retention</a></li>
-                        <li style="margin-bottom: var(--space-sm);"><a href="#your-rights" style="color: var(--primary-purple); text-decoration: none;">👤 Your Privacy Rights</a></li>
-                        <li style="margin-bottom: var(--space-sm);"><a href="#international-transfers" style="color: var(--primary-purple); text-decoration: none;">🌍 International Data Transfers</a></li>
-                        <li style="margin-bottom: var(--space-sm);"><a href="#childrens-privacy" style="color: var(--primary-purple); text-decoration: none;">👶 Children's Privacy</a></li>
-                        <li style="margin-bottom: var(--space-sm);"><a href="#policy-updates" style="color: var(--primary-purple); text-decoration: none;">🔄 Policy Updates</a></li>
-                        <li style="margin-bottom: var(--space-sm);"><a href="#contact-information" style="color: var(--primary-purple); text-decoration: none;">📧 Contact Information</a></li>
+                <!-- Static Content Area -->
+                <div class="content-area">
+                    <h2>Introduction</h2>
+
+                    <p>At RohpoLabs, we believe privacy is a fundamental right. This Privacy Policy explains how we protect your information across all our mobile applications.</p>
+
+                    <p>By downloading, accessing, or using our applications, you agree to this Privacy Policy. If you do not agree, please do not use our apps.</p>
+
+                    <h2>No Account Required</h2>
+
+                    <p>Our applications are designed to work without requiring you to create an account, register, or provide any personal information. You can use all features of our apps without:</p>
+                    <ul>
+                        <li><strong>No Registration:</strong> No sign-up or account creation process</li>
+                        <li><strong>No Login:</strong> No username or password required</li>
+                        <strong>No Personal Information:</strong> We do not collect your name, email address, phone number, or any other personally identifiable information</li>
                     </ul>
+
+                    <h2>Information We Do NOT Collect</h2>
+
+                    <p>We do NOT collect any of the following information:</p>
+                    <ul>
+                        <li><strong>No Account Information:</strong> We do not collect usernames, passwords, email addresses, or profile information</li>
+                        <li><strong>No Personal Data:</strong> We do not collect your name, address, phone number, or any other personal details</li>
+                        <li><strong>No Usage Tracking:</strong> We do not track how you use our applications beyond what is necessary for basic functionality</li>
+                        <li><strong>No Location Data:</strong> We do not collect or store your geographic location</li>
+                        <li><strong>No Contact Information:</strong> We do not access your contacts or address book</li>
+                        <li><strong>No Biometric Data:</strong> We do not collect fingerprints, face ID, or other biometric information</li>
+                    </ul>
+
+                    <h2>Local Data Storage</h2>
+
+                    <p>All your data is stored locally on your device. When you use our applications:</p>
+                    <ul>
+                        <li>Your app data, settings, preferences, and any content you create is stored only on your device</li>
+                        <li>We do not have access to your device or the data stored on it</li>
+                        <li>We do not sync your data to any cloud service or server</li>
+                        <li>You have full control over your data at all times</li>
+                    </ul>
+
+                    <h2>No Data Sharing</h2>
+
+                    <p>We do NOT share your information with anyone because we do not collect it in the first place. Specifically:</p>
+                    <ul>
+                        <li><strong>No Third-Party Sharing:</strong> We do not sell, rent, or share your personal data with third parties</li>
+                        <li><strong>No Advertising Partners:</strong> We do not share your information with advertisers or ad networks</li>
+                        <li><strong>No Analytics Services:</strong> We do not use third-party analytics services that track your behavior</li>
+                        <li><strong>No Data Selling:</strong> We do not sell your data to anyone, ever</li>
+                    </ul>
+
+                    <h2>Automatic Data Collection</h2>
+
+                    <p>We may collect the following technical information automatically:</p>
+                    <ul>
+                        <li><strong>Crash Reports:</strong> Anonymous crash reports to help us fix bugs and improve app stability</li>
+                        <li><strong>Device Information:</strong> General device type (Android/iOS) and operating system version for compatibility</li>
+                        <li><strong>App Performance:</strong> Technical diagnostics to improve app functionality</li>
+                    </ul>
+
+                    <p>This information is anonymous and cannot be used to identify you personally.</p>
+
+                    <h2>Your Privacy Rights</h2>
+
+                    <p>Since we do not collect your personal information, you have complete control over your data:</p>
+                    <ul>
+                        <li><strong>Full Control:</strong> All your data is stored locally on your device</li>
+                        <li><strong>Delete Anytime:</strong> You can delete the app and all your data at any time</li>
+                        <li><strong>No Tracking:</strong> We do not track your behavior across different apps or services</li>
+                        <li><strong>Opt-Out Not Needed:</strong> Since we don't collect your data, there's nothing to opt-out from</li>
+                    </ul>
+
+                    <h2>Children's Privacy</h2>
+
+                    <p>Our services are suitable for users of all ages. Since we do not collect any personal information:</p>
+                    <ul>
+                        <li>We do not knowingly collect personal information from children under 13</li>
+                        <li>Our apps comply with the Children's Online Privacy Protection Act (COPPA) and similar regulations</li>
+                        <li>No account creation means no personal information is at risk</li>
+                    </ul>
+
+                    <h2>Security</h2>
+
+                    <p>We implement reasonable security measures to protect our applications:</p>
+                    <ul>
+                        <li><strong>No Remote Access:</strong> We cannot access your device or your data remotely</li>
+                        <li><strong>Local Storage:</strong> Your data is protected by your device's security features</li>
+                        <li><strong>App Sandboxing:</strong> App data is isolated within the app's secure sandbox</li>
+                        <li><strong>Secure Transmission:</strong> Any data transmitted (for crash reports) uses encrypted connections</li>
+                    </ul>
+
+                    <p>While we take reasonable security measures, no method of transmission over the internet is 100% secure.</p>
+
+                    <h2>Changes to This Privacy Policy</h2>
+
+                    <p>We may update this privacy policy from time to time to reflect changes in our practices. We will notify you of any changes by:</p>
+                    <ul>
+                        <li>Posting the updated policy on this page</li>
+                        <li>Updating the "Last updated" date</li>
+                        <li>In-app notification (for significant changes)</li>
+                    </ul>
+
+                    <p>We encourage you to review this policy periodically to stay informed about how we protect your information.</p>
+
+                    <h2>Contact Information</h2>
+
+                    <p>If you have questions, concerns, or requests regarding this privacy policy, please contact us:</p>
+
+                    <p><strong>Email:</strong> rohpolabs@gmail.com<br>
+                    <strong>Company:</strong> RohpoLabs</p>
+
+                    <p>We are committed to addressing your privacy concerns promptly and transparently.</p>
+
+                    <h2>App-Specific Privacy Information</h2>
+
+                    <p>Different RohpoLabs apps may have specific privacy considerations. Please check the individual app pages for more detailed information about data collection and usage for specific applications.</p>
                 </div>
-
-                <!-- Information We Collect -->
-                <section id="information-we-collect" class="card mb-3xl">
-                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">🔍 Information We Collect</h2>
-
-                    <h3 style="color: var(--secondary-blue); margin-bottom: var(--space-md); margin-top: var(--space-xl);">Information You Provide</h3>
-                    <ul style="color: var(--neutral-600); line-height: 1.8;">
-                        <li><strong>Account Information:</strong> Email address, username (when you create an account)</li>
-                        <li><strong>App Content:</strong> Tasks, notes, settings, and other data you create within our apps</li>
-                        <li><strong>Communications:</strong> Messages you send to us for support or feedback</li>
-                        <li><strong>Optional Information:</strong> Profile picture, personal preferences, or any additional information you choose to provide</li>
-                    </ul>
-
-                    <h3 style="color: var(--secondary-blue); margin-bottom: var(--space-md); margin-top: var(--space-xl);">Automatically Collected Information</h3>
-                    <ul style="color: var(--neutral-600); line-height: 1.8;">
-                        <li><strong>Device Information:</strong> Device model, operating system version, device identifiers</li>
-                        <li><strong>Usage Data:</strong> How you interact with our apps, features used, session duration</li>
-                        <li><strong>Performance Data:</strong> App crashes, response times, technical diagnostics</li>
-                        <li><strong>Storage Data:</strong> Local app settings, preferences, cached data (stored locally on your device)</li>
-                    </ul>
-
-                    <div style="background: rgba(132, 204, 22, 0.1); padding: var(--space-md); border-radius: var(--radius-lg); margin-top: var(--space-lg); border-left: 4px solid var(--highlight-lime);">
-                        <p style="color: var(--neutral-700); margin: 0;">
-                            <strong>📱 Offline-First Approach:</strong> Most of our apps are designed to work offline and store your data locally on your device. We only collect or transmit data when necessary for core functionality.
-                        </p>
-                    </div>
-                </section>
-
-                <!-- How We Use Information -->
-                <section id="how-we-use-information" class="card mb-3xl">
-                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">🎯 How We Use Your Information</h2>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        We use your information only for legitimate purposes that are clearly explained and necessary for providing our services:
-                    </p>
-
-                    <div style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg); display: grid;">
-                        <div>
-                            <h4 style="color: var(--secondary-blue); margin-bottom: var(--space-sm);">🔧 Service Provision</h4>
-                            <ul style="color: var(--neutral-600); font-size: 0.9rem;">
-                                <li>Provide core app functionality</li>
-                                <li>Sync data across your devices</li>
-                                <li>Personalize user experience</li>
-                                <li>Save your preferences and settings</li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <h4 style="color: var(--accent-coral); margin-bottom: var(--space-sm);">🛡️ Security & Support</h4>
-                            <ul style="color: var(--neutral-600); font-size: 0.9rem;">
-                                <li>Prevent fraud and abuse</li>
-                                <li>Provide customer support</li>
-                                <li>Maintain app security</li>
-                                <li>Resolve technical issues</li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <h4 style="color: var(--highlight-lime); margin-bottom: var(--space-sm);">📈 Improvement</h4>
-                            <ul style="color: var(--neutral-600); font-size: 0.9rem;">
-                                <li>Improve app performance</li>
-                                <li>Develop new features</li>
-                                <li>Fix bugs and issues</li>
-                                <li>Optimize user experience</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div style="background: rgba(244, 63, 94, 0.1); padding: var(--space-md); border-radius: var(--radius-lg); margin-top: var(--space-xl); border-left: 4px solid var(--accent-coral);">
-                        <p style="color: var(--neutral-700); margin: 0;">
-                            <strong>❌ What We Don't Do:</strong> We never sell your personal data, never use it for targeted advertising, and never share it with third parties for marketing purposes.
-                        </p>
-                    </div>
-                </section>
-
-                <!-- Data Sharing -->
-                <section id="data-sharing" class="card mb-3xl">
-                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">🤝 Data Sharing and Third Parties</h2>
-
-                    <h3 style="color: var(--secondary-blue); margin-bottom: var(--space-md); margin-top: var(--space-xl);">When We Share Information</h3>
-                    <p style="color: var(--neutral-600); line-height: 1.8;">
-                        We only share your information in limited circumstances:
-                    </p>
-                    <ul style="color: var(--neutral-600); line-height: 1.8;">
-                        <li><strong>With Your Consent:</strong> When you explicitly authorize us to share specific information</li>
-                        <li><strong>Service Providers:</strong> With trusted third-party services necessary to operate our apps (e.g., cloud storage, authentication)</li>
-                        <li><strong>Legal Requirements:</strong> When required by law, court order, or to protect our rights</li>
-                        <li><strong>Business Transfers:</strong> In connection with mergers, acquisitions, or asset sales (with proper notice)</li>
-                    </ul>
-
-                    <h3 style="color: var(--secondary-blue); margin-bottom: var(--space-md); margin-top: var(--space-xl);">Third-Party Services</h3>
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        We may use the following types of third-party services:
-                    </p>
-                    <ul style="color: var(--neutral-600); line-height: 1.8;">
-                        <li><strong>Cloud Storage:</strong> For data synchronization (Google Drive, iCloud)</li>
-                        <li><strong>Analytics:</strong> Anonymous usage statistics (no personal identifiers)</li>
-                        <li><strong>Crash Reporting:</strong> Technical diagnostics to improve app stability</li>
-                        <li><strong>App Store Services:</strong> For app distribution and updates</li>
-                    </ul>
-
-                    <div style="background: rgba(59, 130, 246, 0.1); padding: var(--space-md); border-radius: var(--radius-lg); margin-top: var(--space-lg); border-left: 4px solid var(--secondary-blue);">
-                        <p style="color: var(--neutral-700); margin: 0;">
-                            <strong>🔒 Vetted Partners:</strong> All third-party services are carefully selected for their privacy practices and data security standards. We use the minimum data necessary for each service.
-                        </p>
-                    </div>
-                </section>
-
-                <!-- Data Security -->
-                <section id="data-security" class="card mb-3xl">
-                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">🔒 Data Security</h2>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        We implement comprehensive security measures to protect your information:
-                    </p>
-
-                    <div style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-lg); display: grid;">
-                        <div style="text-align: center;">
-                            <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">🔐</div>
-                            <h4 style="color: var(--secondary-blue); margin-bottom: var(--space-sm);">Encryption</h4>
-                            <p style="color: var(--neutral-600); font-size: 0.9rem;">Data encrypted in transit and at rest</p>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">🛡️</div>
-                            <h4 style="color: var(--accent-coral); margin-bottom: var(--space-sm);">Access Controls</h4>
-                            <p style="color: var(--neutral-600); font-size: 0.9rem;">Strict internal access limitations</p>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">🔍</div>
-                            <h4 style="color: var(--primary-purple); margin-bottom: var(--space-sm);">Regular Audits</h4>
-                            <p style="color: var(--neutral-600); font-size: 0.9rem;">Security reviews and testing</p>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">📱</div>
-                            <h4 style="color: var(--highlight-lime); margin-bottom: var(--space-sm);">Local Storage</h4>
-                            <p style="color: var(--neutral-600); font-size: 0.9rem;">Data stored on your device when possible</p>
-                        </div>
-                    </div>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-top: var(--space-xl);">
-                        While we take reasonable security measures, no method of transmission over the internet is 100% secure. We cannot guarantee absolute security, but we continuously work to improve our security practices.
-                    </p>
-                </section>
-
-                <!-- Data Retention -->
-                <section id="data-retention" class="card mb-3xl">
-                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">⏰️ Data Retention</h2>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        We retain your information only as long as necessary for the purposes outlined in this policy:
-                    </p>
-
-                    <ul style="color: var(--neutral-600); line-height: 1.8;">
-                        <li><strong>Active Accounts:</strong> Information is retained while you use our services</li>
-                        <li><strong>Deleted Accounts:</strong> Personal information is deleted within 30 days</li>
-                        <li><strong>Legal Requirements:</strong> Some data may be retained longer if required by law</li>
-                        <li><strong>Anonymous Data:</strong> Anonymized usage data may be retained indefinitely</li>
-                    </ul>
-
-                    <div style="background: rgba(139, 92, 246, 0.1); padding: var(--space-md); border-radius: var(--radius-lg); margin-top: var(--space-lg); border-left: 4px solid var(--primary-purple);">
-                        <p style="color: var(--neutral-700); margin: 0;">
-                            <strong>💾 Your Control:</strong> You can delete your account and data at any time through the app settings or by contacting us directly.
-                        </p>
-                    </div>
-                </section>
-
-                <!-- Your Rights -->
-                <section id="your-rights" class="card mb-3xl">
-                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">👤 Your Privacy Rights</h2>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        You have the following rights regarding your personal information:
-                    </p>
-
-                    <div style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg); display: grid;">
-                        <div class="card" style="background: rgba(59, 130, 246, 0.05); border-left: 4px solid var(--secondary-blue);">
-                            <h4 style="color: var(--secondary-blue); margin-bottom: var(--space-sm);">🔍 Access</h4>
-                            <p style="color: var(--neutral-600); font-size: 0.9rem; margin: 0;">Request a copy of your personal data</p>
-                        </div>
-                        <div class="card" style="background: rgba(244, 63, 94, 0.05); border-left: 4px solid var(--accent-coral);">
-                            <h4 style="color: var(--accent-coral); margin-bottom: var(--space-sm);">🗑️ Deletion</h4>
-                            <p style="color: var(--neutral-600); font-size: 0.9rem; margin: 0;">Request deletion of your personal data</p>
-                        </div>
-                        <div class="card" style="background: rgba(132, 204, 22, 0.05); border-left: 4px solid var(--highlight-lime);">
-                            <h4 style="color: var(--highlight-lime); margin-bottom: var(--space-sm);">✏️ Correction</h4>
-                            <p style="color: var(--neutral-600); font-size: 0.9rem; margin: 0;">Update or correct inaccurate information</p>
-                        </div>
-                        <div class="card" style="background: rgba(139, 92, 246, 0.05); border-left: 4px solid var(--primary-purple);">
-                            <h4 style="color: var(--primary-purple); margin-bottom: var(--space-sm);">📤 Portability</h4>
-                            <p style="color: var(--neutral-600); font-size: 0.9rem; margin: 0;">Request your data in a portable format</p>
-                        </div>
-                    </div>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-top: var(--space-xl);">
-                        To exercise these rights, please contact us at <a href="mailto:privacy@rohpolabs.com" style="color: var(--primary-purple);">privacy@rohpolabs.com</a>. We will respond within 30 days.
-                    </p>
-                </section>
-
-                <!-- International Transfers -->
-                <section id="international-transfers" class="card mb-3xl">
-                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">🌍 International Data Transfers</h2>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        RohpoLabs is based in [Your Country/Region]. Your information may be transferred to and processed in countries other than your own. When we transfer data internationally, we ensure appropriate safeguards are in place.
-                    </p>
-
-                    <div style="background: rgba(59, 130, 246, 0.1); padding: var(--space-md); border-radius: var(--radius-lg); border-left: 4px solid var(--secondary-blue);">
-                        <p style="color: var(--neutral-700); margin: 0;">
-                            <strong>🇪🇺 GDPR Compliance:</strong> We comply with GDPR requirements for international data transfers and implement appropriate legal mechanisms such as Standard Contractual Clauses where required.
-                        </p>
-                    </div>
-                </section>
-
-                <!-- Children's Privacy -->
-                <section id="childrens-privacy" class="card mb-3xl">
-                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">👶 Children's Privacy</h2>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        Our services are not directed to children under 13 (or applicable age in your jurisdiction). We do not knowingly collect personal information from children under 13. If we become aware that we have collected such information, we will take steps to delete it immediately.
-                    </p>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.
-                    </p>
-                </section>
-
-                <!-- Policy Updates -->
-                <section id="policy-updates" class="card mb-3xl">
-                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">🔄 Policy Updates</h2>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        We may update this privacy policy from time to time. When we make significant changes, we will:
-                    </p>
-
-                    <ul style="color: var(--neutral-600); line-height: 1.8;">
-                        <li>Post the updated policy on our website</li>
-                        <li>Update the "Last updated" date</li>
-                        <li>Notify users through the app or email for material changes</li>
-                        <li>Obtain consent when required by law</li>
-                    </ul>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-top: var(--space-lg);">
-                        We encourage you to review this policy periodically to stay informed about how we protect your information.
-                    </p>
-                </section>
-
-                <!-- Contact Information -->
-                <section id="contact-information" class="card">
-                    <h2 style="color: var(--primary-purple); margin-bottom: var(--space-lg);">📧 Contact Information</h2>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        If you have any questions, concerns, or requests regarding this privacy policy or our data practices, please contact us:
-                    </p>
-
-                    <div style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1)); padding: var(--space-xl); border-radius: var(--radius-xl); margin-top: var(--space-lg); text-align: center;">
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-lg); text-align: left;">
-                            <div>
-                                <h4 style="color: var(--secondary-blue); margin-bottom: var(--space-sm);">📧 Privacy Questions</h4>
-                                <p style="color: var(--neutral-700); margin: 0;">
-                                    <strong>Email:</strong> privacy@rohpolabs.com
-                                </p>
-                            </div>
-                            <div>
-                                <h4 style="color: var(--accent-coral); margin-bottom: var(--space-sm);">🏢 Company</h4>
-                                <p style="color: var(--neutral-700); margin: 0;">
-                                    <strong>Name:</strong> RohpoLabs
-                                </p>
-                            </div>
-                            <div>
-                                <h4 style="color: var(--highlight-lime); margin-bottom: var(--space-sm);">⏱️ Response Time</h4>
-                                <p style="color: var(--neutral-700); margin: 0;">
-                                    We typically respond within 3-5 business days
-                                </p>
-                            </div>
-                        </div>
-
-                        <div style="margin-top: var(--space-xl);">
-                            <p style="color: var(--neutral-700); font-style: italic; margin: 0;">
-                                We are committed to addressing your privacy concerns promptly and transparently.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- App-Specific Privacy Notes -->
-                <section class="card" style="margin-top: var(--space-3xl); background: var(--neutral-50);">
-                    <h2 style="color: var(--secondary-blue); margin-bottom: var(--space-lg);">📱 App-Specific Privacy Information</h2>
-
-                    <p style="color: var(--neutral-600); line-height: 1.8; margin-bottom: var(--space-lg);">
-                        Different RohpoLabs apps may have specific privacy considerations. Please check the individual app pages or in-app privacy settings for more detailed information about data collection and usage for specific applications.
-                    </p>
-
-                    <div style="text-align: center; margin-top: var(--space-xl);">
-                        <a href="../apps/index.html" class="btn btn-primary">View All Apps</a>
-                    </div>
-                </section>
-
             </div>
         </div>
     </main>
@@ -409,7 +268,7 @@
                     </div>
                     <div style="margin-top: var(--space-lg);">
                         <p style="color: var(--neutral-500); font-size: 0.875rem;">
-                            © 2025 RohpoLabs. All rights reserved.
+                            © 2026 RohpoLabs. All rights reserved.
                         </p>
                     </div>
                 </div>
